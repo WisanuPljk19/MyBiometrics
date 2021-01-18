@@ -99,6 +99,7 @@
 		18BCDA7C25AD5295002AD110 /* MyBiometrics */ = {
 			isa = PBXGroup;
 			children = (
+				18BCDAB325AD571D002AD110 /* Create PIN */,
 				18BCDA7D25AD5295002AD110 /* AppDelegate.swift */,
 				18BCDA7F25AD5295002AD110 /* SceneDelegate.swift */,
 				18BCDA8125AD5295002AD110 /* ViewController.swift */,
@@ -126,6 +127,13 @@
 				18BCDAA125AD5297002AD110 /* Info.plist */,
 			);
 			path = MyBiometricsUITests;
+			sourceTree = "<group>";
+		};
+		18BCDAB325AD571D002AD110 /* Create PIN */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Create PIN";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -443,6 +451,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = studio.eightyears.components.MyBiometrics;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -462,6 +471,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = studio.eightyears.components.MyBiometrics;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
